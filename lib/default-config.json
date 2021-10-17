@@ -1,0 +1,39 @@
+{
+  "component": {
+    "files": {
+      "jsx": {
+        "imports": [
+          "import React from 'react';",
+          "import block from 'bem-cn';",
+          "import PT from 'prop-types';"
+        ],
+        "style-imports": [
+          "import './%name%.scss';"
+        ],
+        "constants": [
+          "const b = block('%style-name%');"
+        ],
+        "main": [
+          "const %name% = () => {};"
+        ],
+        "additional": [
+          "%name%.propTypes = {};"
+        ],
+        "export": [
+          "export default %name%;"
+        ]
+      },
+      "scss": {
+        "imports": [
+          "@import 'shared/style/var%device-type%.scss';"
+        ],
+        "main": [
+          ".%style-name% {}"
+        ]
+      }
+    },
+    "includeIndex": true,
+    "needStyleInputs": true,
+    "createFolder": true
+  }
+}
