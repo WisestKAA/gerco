@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "description": "Easy way to generate the React component",
   "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./index.js",
   "directories": {
     "lib": "lib"
   },

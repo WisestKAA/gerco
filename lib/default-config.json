@@ -25,7 +25,7 @@
       },
       "scss": {
         "imports": [
-          "@import 'shared/style/var%device-type%.scss';"
+          "@import 'shared/style/var%style-imports-name%.scss';"
         ],
         "main": [
           ".%style-name% {}"
@@ -33,7 +33,12 @@
       }
     },
     "includeIndex": true,
-    "needStyleInputs": true,
-    "createFolder": true
+    "indexData": {
+      "filename": "index.js", 
+      "data": [
+        "import %name% from './%name%';",
+        "export default %name%;"
+      ]
+    } 
   }
 }
