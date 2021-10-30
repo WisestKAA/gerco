@@ -39,7 +39,7 @@ You can use [default configuration](https://github.com/WisestKAA/gerco/blob/main
 - the config file must be located in the root directory of the application;
 - the config file must be named `gerco.config.json`;
 - structure of config file:
-```json
+```
 {
     "[type-name]": {
         "files": {
@@ -68,10 +68,14 @@ You can use [default configuration](https://github.com/WisestKAA/gerco/blob/main
 }
 ```
 - `[file-extension]` may contain part of the name separated by `.`. For example, converting from `Types.ts` to` MyComponentTypes.ts` if the component name is `MyComponent`
-- variables
--- `%name%` - component's name
--- `%style-name%` - style name. generated from component's name from camelCase to kebab-case. For example converting  from `TestComponent` to `.test-component`
--- `%style-imports-name%` - the name or part of the name imported into the style file (optional)
+- variables:
+
+`%name%` - component's name
+
+`%style-name%` - style name. generated from component's name from camelCase to kebab-case. For example converting  from `TestComponent` to `.test-component`
+
+`%style-imports-name%` - the name or part of the name imported into the style file (optional)
+
 - example
 ```json
 {
