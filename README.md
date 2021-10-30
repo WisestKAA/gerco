@@ -8,7 +8,7 @@ CLI tool for creating React component files
 
 ## Installation 
 
-Dillinger requires [Node.js](https://nodejs.org/) v13+ to run.
+Gerco requires [Node.js](https://nodejs.org/) v13+ to run.
 
 The package can be installed via [npm](https://github.com/npm/cli)
 
