@@ -9,20 +9,6 @@ const gen = require('./lib/gen');
 const config = getConfig(path.join(__dirname, '..'));
 
 yargs.command(
-  'hello',
-  'test yargs',
- {
-  name: {
-    alias: 'n',
-    default: 'Unnamed',
-  }
- },
- argv => { console.log(argv) }
-).help()
-.argv;
-
-
-yargs.command(
   'gen',
   'Generate',
  {
