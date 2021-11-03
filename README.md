@@ -27,9 +27,9 @@ npx gerco gen -t component -n MyComponent -sin Desktop
 
 | Name | Alias | Description |
 |------|-------|-------------|
-| -type | -t | type of component from config file |
-| -name | -n | component's name |
-| -style-import-name | -sin | the name or part of the name imported into the style file (optional)
+| --type | -t | type of component from config file |
+| --name | -n | component's name |
+| --style-import-name | -s | the name or part of the name imported into the style file (optional)
 
 ## Configuration
 

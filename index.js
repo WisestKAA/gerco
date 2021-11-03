@@ -6,7 +6,7 @@ const path = require('path');
 const getConfig = require('./lib/get-config');
 const gen = require('./lib/gen');
 
-const config = getConfig(path.join(__dirname, '..'));
+const config = getConfig(path.join(__dirname, '../..'));
 
 yargs.command(
   'gen',
@@ -20,7 +20,7 @@ yargs.command(
     alias: 'n',
   },
   'style-import-name': {
-    alias: 'sin'
+    alias: 's'
   }
  },
  argv => { 
